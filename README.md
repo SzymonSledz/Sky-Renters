@@ -1,5 +1,8 @@
-#WDPAI
+WDPAI
 **Projekt aplikacji wypożyczania samolotów - Sky-renters**
+
+Repozytorium przeniesione z:
+https://bitbucket.org/Szymon_Sledz_32/pai_repo/
 
 ---
 
