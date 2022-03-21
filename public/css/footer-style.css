@@ -1,0 +1,23 @@
+/* TODO always on the bottom, even when the page is not fully filled with content */
+
+
+footer {
+    margin: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 3em;
+    width: 100vw;
+    height: auto;
+    background: #4D7EFF;
+}
+
+footer>b {
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2em;
+    line-height: 1.5em;
+    color: #FFFFFF;
+}
+
+

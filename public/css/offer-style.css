@@ -1,0 +1,361 @@
+.offer {
+    width: auto;
+    max-width: 65vw;
+    background-color: white;
+    height: 25vh;
+    display: flex;
+    flex-direction: row;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.mobile-upper-part {
+    display: flex;
+    flex-direction: row;
+}
+
+.offer-image {
+    width: 20vw;
+    height: 20vh;
+    object-fit: contain;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.offer-image>img {
+    width: 20vw;
+    height: 20vh;
+    object-fit: contain;
+}
+
+.offer-data {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 44vw;
+}
+
+.offer-title {
+    background-color: #797272;
+    min-width: 44vw;
+}
+
+.offer-title>b {
+    
+    color: white;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.8em;
+    line-height: 1.5em;
+    padding-left: 0.3em;
+
+}
+
+.offer-location {
+    margin-top: 5px;
+    padding-left: 0.3em;
+    width: 100%;
+}
+
+.offer-location > b {
+    color: black;
+    font-family: Arial;
+}
+
+.offer-location > i {
+    color: #4D7EFF;
+}
+
+.offer-description {
+    display: flex;
+    width: 80%;
+    flex-direction: column;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: black;
+    font-family: Arial;
+}
+
+.offer-description > button {
+    margin-top: 10px;
+    border:none;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    background: #4D7EFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    color: white;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.5em;
+    line-height: 1em;
+}
+
+.offer-location-description {
+    width: 45%;
+}
+
+.offer-info {
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    width: fit-content;
+    justify-content: center;
+}
+
+.offer-info-border {
+    background: #FFFFFF;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    box-sizing: border-box;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.up {
+    display: flex;
+    flex-direction: row;
+    width: 18vw;
+    width: 100%;
+    padding: 1em;
+}
+
+.offer-price {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    padding:0.5em;
+    margin: 0.3em;
+    width: 9vw;
+}
+
+.offer-license {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding:0.5em;
+    margin: 0.3em;
+    width: 9vw;
+}
+
+.bottom {
+    display: flex;
+    flex-direction: row;
+    width: 18vw;
+    justify-content: center;
+    padding:0.5em;
+    margin: 0.3em;
+}
+
+.offer-category {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    padding:0.5em;
+    margin: 0.3em;
+    margin-left: 1.4em;
+    width: 18vw;
+}
+
+.offer-info-border > b {
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.3em;
+    line-height: 1em;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+    width: fit-content;
+    margin-top: auto;
+    margin-bottom: auto;
+    overflow: hidden;
+}
+
+.buttons > a {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    border: none;
+    padding: 0.3em;
+    margin: 10px;
+    background: #4D7EFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.4em;
+    line-height: 1em;
+    color: #FFFFFF;
+    align-content: center;
+}
+
+.buttons > .offer-button {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    border: none;
+    padding: 0.3em;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background: #4D7EFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.2em;
+    line-height: 1em;
+    color: #FFFFFF;
+    width: auto;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.buttons > form > .offer-button {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    border: none;
+    padding: 0.3em;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background: #4D7EFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.2em;
+    line-height: 1em;
+    color: #FFFFFF;
+    width: auto;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.offer {
+    margin-bottom: 20px;
+    height: auto;
+}
+
+.mobile-buttons {
+    display: none;
+}
+
+@media only screen and (max-device-width: 420px) {
+
+    .offer {
+        width: 80vw;
+        max-width: 80vw;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .mobile-upper-part {
+        display: flex;
+        flex-direction: row;
+        width: 80vw;
+        max-width: 80vw;
+    }
+
+    .offer-image {
+        width: 50vw;
+        min-width: 50vw;
+        height: 300px;
+        min-height: 300px;
+    }
+
+    .offer-image > img {
+        width: 50vw;
+        min-width: 50vw;
+        height: 300px;
+        min-height: 300px;
+        object-fit: cover;
+    }
+
+    .offer-info-container {
+        max-width: 30vw;
+    }
+
+    .offer-data {
+        max-width: 30vw;
+    }
+
+    .offer-info {
+        max-width: 30vw;
+    }
+
+    .offer-category {
+        display: none;
+    }
+
+    .offer-title {
+        max-width: 30vw;
+        min-width: 1vw;
+        margin-top: 0;
+    }
+
+    .offer-description {
+        display: none;
+    }
+
+    .offer-data {
+        flex-direction: column;
+    }
+
+    .offer-location-description {
+        width: 100%;
+    }
+
+    .offer-location {
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+
+    .offer-location > b {
+        font-size: 1.4em;
+    }
+
+    .offer-price {
+        width: 12vw;
+    }
+
+    .offer-license {
+        width: 12vw;
+    }
+
+    .offer-info-border {
+        font-size: 1.4em;
+        border: none;
+        filter: drop-shadow(0px 0px 0px rgba(0, 0, 0, 0.0));
+    }
+
+    .buttons {
+        display: none;
+    }
+
+    .mobile-buttons {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .mobile-buttons > a {
+        display: flex;
+        justify-content: center;
+        border: none;
+        padding: 0.3em;
+        margin: 0;
+        background: #4D7EFF;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        font-family: Arial;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 2em;
+        line-height: 1.8em;
+        color: #FFFFFF;
+        align-content: center;
+    }
+
+}

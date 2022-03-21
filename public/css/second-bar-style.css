@@ -1,0 +1,18 @@
+.second-bar {
+    background: #797272;
+    margin: 0;
+    margin-left: 0;
+    margin-right: 0;
+    width: 100vw;
+    height: auto;
+}
+
+.second-bar>b {
+    margin-left: 20vw;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 3em;
+    line-height: 1.5em;
+    color: #FFFFFF;
+}

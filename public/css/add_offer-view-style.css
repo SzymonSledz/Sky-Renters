@@ -1,0 +1,84 @@
+body {
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+}
+
+.container {
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.main {
+    width: 70vw;
+}
+
+textarea {
+    width: 300px;
+}
+
+p {
+    border: none;
+    margin-top: 0.8em;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.7em;
+    line-height: 1em;
+}
+
+label {
+    font-size: 1.4em;
+}
+
+input {
+    font-size: 1.4em;
+    margin-top: 5px;
+}
+
+.add-offer-button {
+    border: none;
+    margin-top: 0.8em;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background: #4D7EFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.4em;
+    line-height: 1em;
+    color: #FFFFFF;
+}
+
+.choose::-webkit-file-upload-button {
+    border: none;
+    margin-top: 0.8em;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background: #4D7EFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.4em;
+    line-height: 1em;
+    color: #FFFFFF;
+}
+
+@media only screen and (max-device-width: 420px) {
+
+    .container {
+        margin-top: 50px;
+    }
+
+    .main {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+}

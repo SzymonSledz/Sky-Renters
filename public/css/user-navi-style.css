@@ -1,0 +1,90 @@
+.user-navi {
+    width: 15vw;
+    max-width: 15vw;
+    
+}
+
+.button-container {
+    width: 11vw;
+    display: flex;
+    flex-direction: column;
+    background-color: #F6F6F6;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background-size: 11vw;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
+.button-container > button {
+    margin-left: auto;
+    margin-right: auto;
+    width: 11vw;
+    height: 1.6em;
+    padding: 1vw;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    background: #4D7EFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.5em;
+    line-height: 1em;
+    color: #FFFFFF;
+} 
+
+.button-container > a {
+    margin-left: auto;
+    margin-right: auto;
+    width: 11vw;
+    height: 1.6em;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-top: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    background: #4D7EFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.5em;
+    line-height: 1em;
+    color: #FFFFFF;
+}
+
+.button-container > .link-style{
+    margin-left: auto;
+    margin-right: auto;
+    width: 11vw;
+    height: 1.6em;
+
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    background: #4D7EFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.5em;
+    line-height: 1em;
+    color: #FFFFFF;
+}
+
+@media only screen and (max-device-width: 420px) {
+
+    .user-navi {
+        display: none;
+    }
+
+}

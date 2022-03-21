@@ -1,0 +1,143 @@
+header {
+    background: #4D7EFF;
+    display: flex;
+    flex-direction: row;
+}
+nav {
+    margin-left: auto;
+}
+
+ul {
+    display: flex;
+    justify-content: right;
+    margin-top : 0;
+    margin-bottom: 0;
+}
+
+li {
+    border-left: 1px solid rgba(255, 255, 255, 0.5);
+    border-right: 1px solid rgba(255, 255, 255, 0.5);
+    box-sizing: border-box;
+    list-style-type: none;
+}
+
+a {
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-top: 0.3em;
+    margin-bottom: 0.3em;
+    text-decoration: none;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2em;
+    line-height: 1.5em;
+    color: #FFFFFF;
+}
+
+.logo{
+    margin: 0;
+    width: 10vw;
+    display: flex;
+}
+
+.logo>img {
+    
+    width: 2em;
+    height: 2em;
+}
+
+.logo>b {
+    text-decoration: none;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2em;
+    line-height: 1.5em;
+    color: #FFFFFF;
+    white-space: nowrap;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.mobile-header {
+    display: none;
+}
+
+@media only screen and (max-device-width: 985px) {
+
+    a {
+        margin-left: 0.5em;
+        margin-right: 0.5em;
+        margin-top: 0.3em;
+        margin-bottom: 0.3em;
+    }
+}
+
+@media only screen and (max-device-width: 420px) {
+
+    .desktop-header {
+        display: none;
+    }
+
+    .mobile-header {
+        display: block;
+    }
+
+    .navi-mobile-bar {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .bars-title {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .app-title {
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+
+    .app-title > b {
+        margin: 0.5em;
+        padding-bottom: 15px;
+        text-decoration: none;
+        font-family: Arial;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 2em;
+        line-height: 1.5em;
+        color: #FFFFFF;
+        align-items: center;
+    }
+
+    .bars > i {
+        margin: 0.3em;
+        color: #FFFFFF;
+        font-size: 3em;
+        width: auto;
+    }
+
+    .bars-hidden {
+        display: none;
+    }
+
+    .mobile-nav >ul {
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        margin: 0;
+    }
+
+    .mobile-nav >ul > li {
+        border-right: none;
+    }
+
+    .mobile-nav{
+        padding: 0;
+        margin: 0px;
+    }
+
+}
+
