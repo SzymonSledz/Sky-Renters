@@ -58,6 +58,7 @@ class OfferController extends AppController
     }
 
     public function addOffer (){
+        session_start();
         if (!isset($_SESSION['user']) && !isset($_SESSION['admin'])) {
             header('LOCATION: http://localhost:8080/login');
             exit();
@@ -75,7 +76,7 @@ class OfferController extends AppController
             $address = new Address($_POST['country'], $_POST['state'], $_POST['city'], $_POST['street'], $_POST['number'], NULL, $_POST['zipCode']);
             $offer = new Offer($_POST['title'], $_POST['description'], $_POST['price'], $aircraft, $address);
 
-            session_start();
+
             $user = $this->userRepository->getUser($_SESSION['user']);
 
             $this->offerRepository->addOffer($offer, $user);
